@@ -1,0 +1,114 @@
+.App {
+  font-family: Futura, Arial, sans-serif;
+  text-align: center;
+}
+
+/* Header menu */
+.navbar {
+  margin: 10px 10px;
+  align-items: center;
+}
+
+.inner-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 10em;
+}
+
+.hamburger {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+}
+.line {
+  width: 2rem;
+  height: 0.15rem;
+  border-radius: 10px;
+  background-color: black;
+  transform-origin: 1px;
+  transition: all 0.05s linear;
+}
+
+/* En-tête titre/texte */
+.bloc-titre {
+  width: 70vw;
+  margin: auto;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 5vw;
+  /* margin-bottom: 0; */
+}
+
+.description {
+  font-family: Arial;
+}
+
+/*Menu*/
+
+.menu {
+  padding: 20px;
+  position: fixed;
+  z-index: 11;
+  background: white;
+  box-shadow: -1px 20px 10px 1px #00000038;
+  height: 100vh;
+  width: 50vw;
+  right: 0;
+}
+
+.Go {
+  background: #ffdb00;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+li {
+  list-style-type: none;
+  justify-content: left;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 10px;
+}
+ul {
+  padding: 0 0 0 10px;
+}
+/* Chambre*/
+.room,
+Canvas {
+  margin: auto;
+  width: 80vw;
+  height: 40vh;
+  /*background: #f4eccf;*/
+  border-radius: 10px;
+}
+
+/* Bas de page */
+
+.credit {
+  font-size: 0.75em;
+}
+.credit a {
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    width: 90%;
+    padding: 0;
+    margin: 0 5vw 0 10px;
+    box-shadow: none;
+  }
+}

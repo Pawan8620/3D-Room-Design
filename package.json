@@ -1,0 +1,35 @@
+{
+  "name": "ikea",
+  "version": "1.0.0",
+  "description": "Scene 3D of a room made with Blender and React Three Fiber/Drei",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "^9.106.0",
+    "@react-three/fiber": "8.16.6",
+    "@react-three/postprocessing": "2.16.2",
+    "jquery": "3.7.1",
+    "loader-utils": "3.2.2",
+    "postprocessing": "6.35.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-scripts": "5.0.1",
+    "three": "0.165.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.24.6",
+    "typescript": "5.4.5"
+  },
+  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
